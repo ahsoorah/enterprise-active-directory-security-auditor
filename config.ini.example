@@ -1,0 +1,35 @@
+; ============================================================================
+; Enterprise Identity Security Auditor
+; Example Configuration File
+;
+; Copy this file to "config.ini" and update the values for your environment.
+; All values below are fictional and intended for demonstration purposes only.
+; ============================================================================
+
+[Settings]
+
+; Hostname or IP address of the LDAP / Active Directory server.
+LdapServer = dc01.example.local
+
+; Base distinguished name (DN) for directory searches.
+DirectoryBase = DC=example,DC=local
+
+; Default inactivity threshold (days).
+DefaultInactiveDays = 90
+
+; Default NetBIOS domain shown on the login screen.
+DefaultNtlmDomain = EXAMPLE
+
+; ============================================================================
+; Default Security Assessment Options
+; These determine which advanced security checks are enabled when the
+; application starts.
+; ============================================================================
+
+CheckKerberoastable = False
+CheckASREPRoastable = False
+CheckUnconstrainedDelegation = False
+CheckReversibleEncryption = False
+CheckPasswordNotRequired = False
+CheckPlaintextInNotes = False
+CheckLockedOut = False
