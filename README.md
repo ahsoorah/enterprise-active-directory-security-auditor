@@ -186,6 +186,6 @@ It demonstrates the design and architecture of an enterprise identity security a
 
 **Suriyah Saravanan**
 
-Management Information Systems — Cybersecurity
+Management Information Systems, Cybersecurity
 
 Focused on Identity Security, Security Engineering, Active Directory, and Defensive Cybersecurity Automation.
