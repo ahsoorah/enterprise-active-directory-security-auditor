@@ -150,4 +150,4 @@ The public version is intended for portfolio and educational demonstration purpo
 
 Suriyah Saravanan
 
-Management Information Systems — Cybersecurity
+Management Information Systems - Cybersecurity
