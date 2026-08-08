@@ -98,7 +98,7 @@ The original enterprise implementation contained additional organization-specifi
 Copy config.ini.example to config.ini for local configuration.
 
 The example uses fictional infrastructure values:
-
+```ini
 [Settings]
 LdapServer = dc01.example.local
 DirectoryBase = DC=example,DC=local
@@ -112,7 +112,7 @@ CheckReversibleEncryption = False
 CheckPasswordNotRequired = False
 CheckPlaintextInNotes = False
 CheckLockedOut = False
-
+```
 When PORTFOLIO_MODE is enabled, the application uses demonstration data instead of connecting to Active Directory.
 
 ---
