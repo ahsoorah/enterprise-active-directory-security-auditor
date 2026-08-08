@@ -77,8 +77,6 @@ The original enterprise implementation contained additional organization-specifi
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 .
 ├── ad_security_auditor.py
