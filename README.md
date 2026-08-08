@@ -86,6 +86,8 @@ The original enterprise implementation contained additional organization-specifi
 ├── .gitignore
 └── screenshots/
 
+---
+
 ## Configuration
 
 Copy config.ini.example to config.ini for local configuration.
@@ -108,6 +110,8 @@ CheckLockedOut = False
 
 When PORTFOLIO_MODE is enabled, the application uses demonstration data instead of connecting to Active Directory.
 
+---
+
 ## Report Output
 
 The application generates an Excel report containing:
@@ -119,6 +123,8 @@ Last Logon
 
 All findings in the public portfolio edition are fictional demonstration data.
 
+---
+
 ## Skills Demonstrated
 
 Cybersecurity: Active Directory, Identity Security, IAM, security automation, defensive security
@@ -126,6 +132,8 @@ Cybersecurity: Active Directory, Identity Security, IAM, security automation, de
 Development: Python, GUI development, LDAP/NTLM integration, multithreading, configuration management, Excel reporting
 
 ## Security & Privacy
+
+---
 
 This repository has been sanitized to remove:
 
@@ -135,6 +143,8 @@ Production identities and credentials
 Organization-specific configuration
 
 The public version is intended for portfolio and educational demonstration purposes.
+
+---
 
 ## Author
 
