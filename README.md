@@ -77,6 +77,9 @@ The original enterprise implementation contained additional organization-specifi
 
 ## Project Structure
 
+## Project Structure
+
+```text
 .
 ├── ad_security_auditor.py
 ├── config.ini.example
@@ -85,6 +88,10 @@ The original enterprise implementation contained additional organization-specifi
 ├── LICENSE
 ├── .gitignore
 └── screenshots/
+    ├── login.png
+    ├── security-checks.png
+    └── sample-report.png
+```
 
 ---
 
